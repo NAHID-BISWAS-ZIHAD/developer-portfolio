@@ -222,3 +222,57 @@ textarea {
 .title-left{
     text-align: left;
 }
+
+/* Responsive Media Query */
+
+.hide {
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+    .developer-img{
+        background-image: none;
+    }
+    nav, .banner, nav > ul,
+    .about-info-container,
+    .skill-container,
+    .resume-container,
+    footer {
+        flex-direction: column;
+    }
+
+    nav  li{
+        padding: 2px;
+    }
+    .btn-primary{
+        margin-bottom: 10px;
+    }
+    #what-i-do-description {
+        padding: 20px;
+    }
+    .banner .profile-pic{
+        width: 100%;
+    }
+    .resume-column, .banner {
+        padding: 20px;
+    }
+
+    footer {
+        padding: 10px;
+        gap: 20px;
+    }
+
+    .about{
+        padding: 10px;
+    }
+
+    .footer-column {
+        width: 100%;
+    }
+
+    .contact input[type="text"],
+    .contact input[type="email"],
+    textarea{
+        width: 80%;
+    }
+}
