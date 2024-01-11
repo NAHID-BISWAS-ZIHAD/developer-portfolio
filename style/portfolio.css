@@ -122,7 +122,11 @@ main {
 .about {
     padding: 130px;
     border-radius: 10px;
-    background: #FFF8F3;
+    /* background: #FFF8F3; */
+    background-image: url('../images/header_bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 130px 0;
 }
 
